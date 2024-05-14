@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events organizing company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Events Organizing Company</h1>
+        
+        <h2>Registration Form</h2>
+        <form id="registration-form">
+            <label for="name">Name and Surname:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">E-Mail</E-Mail>:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+        
+        <h2>Registered users</h2>
+        <table id="users-table">
+            <tr>
+                <th>Name and Surname</th>
+                <th>E-Mail</th>
+                <th>Year of Birth</th>
+                <th>Actions</th>
+            </tr>
+            <!-- Čia bus įterpiami vartotojai dinamiškai per JavaScript -->
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
